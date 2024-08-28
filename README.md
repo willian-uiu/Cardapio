@@ -9,4 +9,4 @@
 ## Modelo do projeto! 
 ![alt text](Modulo3-Projeto-Menu-2.jpeg)
 
-## Acompanhe a [minha solução]([cardapio/index.html)](https://willian-uiu.github.io/Cardapio/cardapio/)
+## Acompanhe a [minha solução](https://willian-uiu.github.io/Cardapio/cardapio/)
