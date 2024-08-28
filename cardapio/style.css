@@ -1,0 +1,171 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #C3C2C0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 800px;
+    text-align: center;
+
+}
+
+.pratos {
+    background-color: #F5F5F5;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.cards {
+ display: flex;
+ justify-content: space-around;
+}
+
+.card > img {
+    max-width: 300px;
+    max-height: 250px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.imagens > img {
+    width: 97%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card {
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.preco {
+    color: green;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.nome-prato {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dados-pessoais {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dados-pessoais > input {
+    margin: 10px;
+    height: 40px;
+    font-size: 25px;
+    border: 0 none;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+button {
+    width: 98%;
+    margin: auto;
+    padding: 10px 32px;
+    border: none;
+    background-color: #007AFF;
+    color: #F5F5F5;
+    font-size: 25px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#output {
+    text-align: left;
+    margin-left: 2%;
+}
+
+
+/* -- quantity box -- */
+
+.quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+    
+}
+
+.quantity .input-text.qty {
+    width: 35px;
+    height: 39px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #efefef;
+}
+
+.quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+}
+
+.quantity.buttons_added .minus,
+.quantity.buttons_added .plus {
+    padding: 7px 10px 8px;
+    height: 41px;
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+    cursor: pointer;
+}
+
+.quantity.buttons_added .minus {
+    border-right: 0;
+}
+
+.quantity.buttons_added .plus {
+    border-left: 0;
+}
+
+.quantity.buttons_added .minus:hover,
+.quantity.buttons_added .plus:hover {
+    background: #eeeeee;
+}
+
+.quantity input::-webkit-outer-spin-button,
+.quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0;
+}
+
+.quantity.buttons_added .minus:focus,
+.quantity.buttons_added .plus:focus {
+    outline: none;
+}
