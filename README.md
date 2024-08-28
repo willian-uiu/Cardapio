@@ -1,6 +1,6 @@
 # Bootcamp DevJr Módulo03: Projeto Menu
 
-# Recursos do repositório (Não é a solução):
+# Recursos do repositório (Resolvido):
 
 ### Imagens de referência do projeto
 ### Imagens do projeto (assets)
